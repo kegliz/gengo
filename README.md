@@ -47,7 +47,7 @@ type Stack struct {
 
 This is located in the package github.com/kegliz/gengo/structstack.
 
-The benchmarking code is located in the main package.
+The benchmarking code is located in the main package. In order to to avoid the compiler optimizing out the operations, the results are stored in a variable that is written to /dev/null at the end of the benchmark.
 
 
 
